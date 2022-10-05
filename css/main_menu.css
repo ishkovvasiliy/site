@@ -12,10 +12,9 @@
     list-style: none;
     margin: 13px auto;
     width: 800px;
-    width: -moz-fit-content;
-    width: -webkit-fit-content;
     width: fit-content;
     display: block;
+    position: relative;
     z-index: 5;
 }
 

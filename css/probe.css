@@ -4,15 +4,17 @@ body {
     padding: 0;
     background: #353D54;
 }
-.main_block{
+
+.main_block {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
 }
+
 .main1 {
     display: flex;
-    width: 1920px;
-    height: 1080px;
+    width: 100vw;
+    height: 100vh;
     background: #353D54;
     position: absolute;
     top: 150px;
@@ -161,8 +163,8 @@ body {
 }
 
 .test {
-    width: 100%;
-    height: 1080px;
+    max-width: 1920px;
+    max-height: 1080px;
     margin-left: 90px;
     display: flex;
     flex-direction: column;
@@ -170,14 +172,17 @@ body {
 
 .test-header {
     height: 120px;
+    max-width: 1714px;
+    left: 46px;
+    position: relative;
 }
 
 .time_right {
     position: absolute;
     width: 106px;
     height: 51px;
-    left: 1744px;
     top: 50px;
+    right: 0px;
 }
 
 .date {
@@ -209,7 +214,7 @@ body {
 }
 
 .test-notification {
-    width: 100%;
+    width: 100vw;
     height: 804px;
     position: relative;
     margin: auto;
@@ -221,11 +226,13 @@ body {
     height: 150px;
     bottom: 0;
     position: relative;
+    max-width: 1714px;
+    left: 46px;
 }
 
 .tema {
     display: flex;
-    width: 1714px;
+    max-width: 1714px;
     height: 60px;
     position: relative;
     left: 46px;
@@ -290,7 +297,7 @@ body {
 }
 
 .text_notification {
-    width: 1714px;
+    max-width: 1714px;
     height: 744px;
     position: relative;
     left: 46px;
@@ -305,8 +312,8 @@ body {
     width: 70px;
     height: 744px;
     position: absolute;
-    left: 1760px;
     top: 60px;
+    right: 0px;
 }
 
 .delitel {
@@ -340,7 +347,7 @@ body {
     width: 198px;
     height: 76px;
     position: absolute;
-    right: 70px;
+    right: 0px;
     top: 25px;
     background: #B2D63C;
     border-radius: 4px;
