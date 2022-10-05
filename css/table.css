@@ -1,0 +1,36 @@
+table.table {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table.table th {
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0f65a3;
+}
+
+table.table td {
+    font-size: 13px;
+    color: #354251;
+}
+
+table.table td,
+table.table th {
+    white-space: pre-wrap;
+    padding: 10px 5px;
+    line-height: 13px;
+    vertical-align: middle;
+    border: 1px solid #0f65a3;
+}
+
+table.table tr:hover {
+    background-color: #f9fafb
+}
+
+table.table tr:hover td {
+    color: #354251;
+    cursor: default;
+}

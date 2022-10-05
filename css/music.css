@@ -1,0 +1,36 @@
+.music_list {
+    list-style: none;
+    border: 2px solid black;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.music_list:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music_list:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.music_list:before {
+    content: '*';
+    color: red
+}
+
+.music_list:hover::after {
+    content: '<<<';
+}
+
+.music_link {
+    color: black;
+    font-size: 30px;
+}
+
+.music_link:hover {
+    color: blue;
+}

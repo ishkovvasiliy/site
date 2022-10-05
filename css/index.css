@@ -1,0 +1,172 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #353D54;
+}
+.main_class{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #56698F;
+    border-radius: 0px 0px 20px 20px;
+    height: 70px;
+}
+
+.logo {
+    min-width: 142px;
+    height: 70px;
+    position: relative;
+    left: 15px;
+}
+
+.mainmenu_logo {
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    height: 70px;
+}
+
+.mainmenu {
+    position: relative;
+    right: 25px;
+    min-width: 400px;
+    height: 70px;
+}
+
+.mainblock {
+    border: 2px solid red;
+    width: 300px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 0px 30px 0px 30px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.xzblock {
+    border: 2px solid blue;
+    width: 400px;
+    height: 75px;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding: 25px 30px 0px 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    clear: both;
+}
+
+.around::first-letter {
+    color: rgb(253, 2, 2);
+    font-size: 200%;
+    text-align: center;
+}
+
+.text-black {
+    color: black;
+}
+
+.header-text-red {
+    color: red;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+p {
+    color: blue;
+}
+
+.heading {
+    color: blueviolet;
+    text-align: center;
+}
+
+.back-grey {
+    background-color: gray;
+}
+
+.input {
+    color: red;
+}
+
+.block {
+    width: 50%;
+    height: 600px;
+    border: 3px solid rgb(196, 8, 8);
+    background-color: rgb(217, 232, 227);
+    background-image: url(../img/zamok.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text {
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pic {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(150, 120, 120);
+    width: 260px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skazki {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.rutube {
+    width: 350px;
+    height: 200px;
+    background-image: url(../img/rutube.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.up {
+    width: 150px;
+    height: 100px;
+    background-image: url(../img/up.png);
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-color: #56698F;
+    height: 100px;
+}

@@ -1,0 +1,72 @@
+.mozaika {
+    background-color: gray;
+    border: 1px solid #000;
+    height: 350px;
+    position: relative;
+    position: sticky;
+    top: 0;
+    display: flex;
+}
+
+.kvadrat {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.kvadrat_green {
+    background-color: green;
+    z-index: 2;
+}
+
+.kvadrat_orange {
+    background-color: orange;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.kvadrat_blue {
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+}
+
+.kvadrat_red {
+    background-color: red;
+    z-index: 2;
+
+}
+
+.kvadrat_yellow {
+    background-color: yellow;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.open_text {
+    background-color: rgba(79, 79, 79, 0);
+    height: 100px;
+    width: 100px;
+    top: 120px;
+    left: 350px;
+    position: relative;
+    display: flex;
+}
+
+.open_text:hover .kvadrat_yellow {
+    z-index: 3;
+    display: block;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.mouse {
+    display: flex;
+    top: 160px;
+    left: 470px;
+    position: absolute;
+}
