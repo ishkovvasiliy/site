@@ -5,19 +5,14 @@ body {
     background: #353D54;
 }
 
-.main_block {
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-}
-
 .main1 {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    height: 1080px;
+    max-width: 1920px;
     background: #353D54;
-    position: absolute;
-    top: 150px;
+    position: relative;
+    top: 20px;
+    border: 2px solid black;
 
 }
 
@@ -27,6 +22,7 @@ body {
     position: absolute;
     background: #56698F;
     border-radius: 0px 15px 15px 0px;
+    top: 100px;
 }
 
 .transition {
@@ -163,17 +159,17 @@ body {
 }
 
 .test {
-    max-width: 1920px;
-    max-height: 1080px;
     margin-left: 90px;
     display: flex;
     flex-direction: column;
+    max-width: 1830px;
+    top: 30px;
+    position: relative;
 }
 
 .test-header {
     height: 120px;
-    max-width: 1714px;
-    left: 46px;
+    max-width: 1830px;
     position: relative;
 }
 
@@ -182,7 +178,7 @@ body {
     width: 106px;
     height: 51px;
     top: 50px;
-    right: 0px;
+    right: 70px;
 }
 
 .date {
@@ -214,11 +210,9 @@ body {
 }
 
 .test-notification {
-    width: 100vw;
+    max-width: 1830px;
     height: 804px;
     position: relative;
-    margin: auto;
-
 }
 
 .test-footer {
@@ -226,20 +220,18 @@ body {
     height: 150px;
     bottom: 0;
     position: relative;
-    max-width: 1714px;
-    left: 46px;
+    max-width: 1830px;
 }
 
 .tema {
     display: flex;
     max-width: 1714px;
     height: 60px;
-    position: relative;
+    position: absolute;
     left: 46px;
-    right: 70px;
     background: #56698F;
     border-radius: 4px;
-
+    right: 70px;
 }
 
 .publication_date {
@@ -299,13 +291,12 @@ body {
 .text_notification {
     max-width: 1714px;
     height: 744px;
-    position: relative;
+    position: absolute;
     left: 46px;
-    right: 70px;
     background: #6A7180;
     border-radius: 4px;
-    top: 4px;
-
+    top: 64px;
+    right: 70px;
 }
 
 .scroll {
@@ -347,7 +338,7 @@ body {
     width: 198px;
     height: 76px;
     position: absolute;
-    right: 0px;
+    right: 70px;
     top: 25px;
     background: #B2D63C;
     border-radius: 4px;
@@ -372,21 +363,25 @@ body {
 }
 
 .heading_text {
-    width: 322px;
+    max-width: 322px;
     height: 39px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 32px;
     line-height: 39px;
     color: #F2F2F2;
     Top: 31px;
     Left: 50px;
+    bottom: 114px;
+    right: 50px;
     position: absolute;
+    overflow: hidden;
+    border: 1px solid red;
 }
 
 .notification {
-    width: 1614px;
+    max-width: 1614px;
     height: 545px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -400,4 +395,5 @@ body {
     right: 50px;
     position: absolute;
     overflow: hidden;
+    border: 1px solid red;
 }
