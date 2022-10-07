@@ -4,6 +4,7 @@ body {
     padding: 0;
     background: #353D54;
     height: 100vh;
+    /*overflow-x: hidden;*/
 }
 
 .header {
@@ -13,6 +14,7 @@ body {
     border-radius: 0px 0px 20px 20px;
     height: 70px;
     max-width: 1920px;
+    min-width: fit-content;
 }
 
 .logo {

@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: #353D54;
+
 }
 
 .main1 {
@@ -163,6 +164,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 1830px;
+    min-height: 1080px;
     top: 30px;
     position: relative;
 }
@@ -224,7 +226,12 @@ body {
 }
 
 .tema {
-    display: flex;
+    max-width: 1830px;
+    height: 60px;
+    position: relative;
+}
+
+.tema_inside {
     max-width: 1714px;
     height: 60px;
     position: absolute;
@@ -232,14 +239,30 @@ body {
     background: #56698F;
     border-radius: 4px;
     right: 70px;
-    border: 1px solid red;
+}
+
+.delitel_box {
+    max-width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 241px;
+    right: 70px;
 }
 
 .publication_date {
-    width: 103px;
-    height: 20px;
+    max-width: 240px;
+    height: 60px;
+    Top: 0px;
+    Left: 0px;
+    bottom: 114px;
+    right: 0px;
+    position: absolute;
+}
+
+.publication_date_inside {
+    max-width: 103px;
+    height: 19.5px;
     font-family: 'Montserrat';
-    /*Нет такого шрифта??*/
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -247,47 +270,54 @@ body {
     color: #F2F2F2;
     Top: 20px;
     Left: 50px;
+    bottom: 114px;
+    right: 0px;
     position: absolute;
-}
-
-.publication_title {
-    display: flex;
-    width: 220px;
-    height: 20px;
-    Top: 20px;
-    Left: 265px;
-    position: absolute;
-    border: 1px solid red;
-
+    overflow: hidden;
 }
 
 .topic {
-    width: 46px;
-    height: 20px;
+    height: 1470px;
+    height: 60px;
+    Top: 0px;
+    Left: 244px;
+    bottom: 114px;
+    right: 0px;
+    position: absolute;
+}
+
+.topic_theme {
+    max-width: 46px;
+    height: 19.5px;
     font-family: 'Montserrat';
-    /*Нет такого шрифта??*/
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     color: #F2F2F2;
     Top: 20px;
-    Left: 265px;
-
+    Left: 21px;
+    bottom: 114px;
+    right: 0px;
+    position: absolute;
+    overflow: hidden;
 }
 
-.topic_theme {
-    width: 164px;
-    height: 20px;
+.publication_title {
+    max-width: 250px;
+    height: 19.5px;
     font-family: 'Montserrat';
-    /*Нет такого шрифта??*/
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     color: #F2F2F2;
     Top: 20px;
-    Left: 321px;
+    Left: 77px;
+    bottom: 114px;
+    right: 0px;
+    position: absolute;
+    overflow: hidden;
 }
 
 .text_notification {
@@ -313,7 +343,6 @@ body {
     width: 4.16px;
     height: 52px;
     position: absolute;
-    left: 239.83px;
     top: 4px;
     background: #353D54;
 }
