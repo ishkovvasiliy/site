@@ -232,6 +232,7 @@ body {
     background: #56698F;
     border-radius: 4px;
     right: 70px;
+    border: 1px solid red;
 }
 
 .publication_date {
@@ -256,6 +257,7 @@ body {
     Top: 20px;
     Left: 265px;
     position: absolute;
+    border: 1px solid red;
 
 }
 
@@ -367,7 +369,7 @@ body {
     height: 39px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 32px;
     line-height: 39px;
     color: #F2F2F2;
@@ -377,7 +379,6 @@ body {
     right: 50px;
     position: absolute;
     overflow: hidden;
-    border: 1px solid red;
 }
 
 .notification {
@@ -395,5 +396,4 @@ body {
     right: 50px;
     position: absolute;
     overflow: hidden;
-    border: 1px solid red;
 }
