@@ -17,12 +17,12 @@
 .right_block {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    background-color: #353D54;
     max-width: 1830px;
     min-height: 1080px;
     position: relative;
     margin-left: 90px;
-
+    top: 0px;
 }
 
 .date_time {
@@ -48,18 +48,47 @@
 
 .main_text {
     position: absolute;
-    max-width: 1830px;
-    left: 9.69%;
-    right: 6.25%;
-    top: 25%;
-    bottom: 24.54%;
-    border: 1px solid black;
+    max-width: 1714px;
+    height: 744px;
+    left: 46px;
+    background: #6A7180;
+    border-radius: 4px;
+    top: 180px;
+    right: 70px;
+    border: 1px solid red;
 }
 
 .back_button {
     max-width: 1830px;
     height: 150px;
-    background-color: rgb(212, 0, 255);
+    position: relative;
+}
+
+.button_back {
+    width: 198px;
+    height: 76px;
+    position: absolute;
+    right: 70px;
+    top: 25px;
+    background: #B2D63C;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_stile {
+    width: 90px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #333333;
+    text-align: center;
+
 }
 
 .roll {
