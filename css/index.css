@@ -13,7 +13,7 @@ body {
     background-color: #56698F;
     border-radius: 0px 0px 20px 20px;
     height: 70px;
-    max-width: 1920px;
+    max-width: 100vw;
     min-width: fit-content;
 }
 
@@ -165,4 +165,28 @@ body {
 .footer {
     background-color: #56698F;
     height: 100px;
+}
+
+@media (min-width:320px) and (max-width:650px) {
+    .mainmenu {
+        width: 30px;
+        height: 30px;
+        background: url(//img/menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mainmenu_logo {
+        position: absolute;
+        justify-content: left;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        background: url(//img/menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
 }
